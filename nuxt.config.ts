@@ -6,10 +6,6 @@ import config from "./sutando.config.cjs";
 
 export default defineNuxtConfig({
     devtools: { enabled: true },
-    ssr: true,
-    nitro: {
-        preset: 'cloudflare-pages'
-    },
     app: {
         head: {
             meta: [

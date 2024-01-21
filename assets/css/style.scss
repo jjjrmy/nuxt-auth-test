@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 #__nuxt {
   @apply flex flex-col min-h-screen;
   counter-reset: count;
 }
 
 main, #Main {
-  @apply flex-1;
+  @apply flex-1 flex flex-col;
 }

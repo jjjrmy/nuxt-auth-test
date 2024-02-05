@@ -44,8 +44,6 @@ export default defineNuxtConfig({
     },
 
     sanctum: {
-        baseUrl: process.env.APP_URL,
-        origin: process.env.SPA_URL,
         redirect: {
             keepRequestedRoute: true,
             onLogin: '/dashboard', // Custom route after successful login
